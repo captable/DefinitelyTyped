@@ -32,7 +32,7 @@ interface dateArithmeticStatic {
     lte(date: Date, date2: Date): Boolean;
 }
 
-declare module 'dateArithmetic' {
+export declare module 'dateArithmetic' {
     const dateArithmetic: dateArithmeticStatic;
     export = dateArithmetic;
 }
